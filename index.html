@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniels</title>
+
+        <!-- link icon -->
+        <link rel="icon" href="imgs/favicon.ico">
+    
+       <!-- Fontawesom -->
+       <link rel="stylesheet" href="css/all.min.css" />
+
+       <!-- googal fonts  -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800;900&display=swap" rel="stylesheet"> 
+      
+       <!-- Bootstrap -->
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+
+       <!-- main css -->
+       <link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+  
+    
+<!-- start nav  -->
+<nav class="navbar navbar-expand-lg" id="#navbar-example">
+    <div class="container">
+      <a class="navbar-brand text-black ms-5 text-uppercase" href="#">Daniels</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Works">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Clients">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+<!-- start header -->
+<header class="header vh-100 d-flex align-items-center justify-content-center position-relative " id="header"> 
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center text-white gap-3">
+        <h1 class="fw-bolder">Hello</h1>
+        <p class="fs-1">I Am <span class="fw-semibold" id="element"></span></p>
+        <div class="header-icons d-flex gap-1">
+            <div class="icon-item d-flex justify-content-center align-items-center rounded-circle ">
+                <i class="fa-brands fa-facebook-f"></i>          
+            </div>
+
+            <div class="icon-item d-flex justify-content-center align-items-center rounded-circle ">
+                <i class="fa-brands fa-twitter"></i>           
+            </div>
+
+            <div class="icon-item d-flex justify-content-center align-items-center rounded-circle ">
+                <i class="fa-brands fa-linkedin"></i>    
+            </div>
+
+            <div class="icon-item d-flex justify-content-center align-items-center rounded-circle ">
+                <i class="fa-brands fa-behance"></i>
+            </div>
+
+            <div class="icon-item d-flex justify-content-center align-items-center rounded-circle ">
+                <i class="fa-brands fa-youtube"></i>       
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+    
+
+<!-- start about section -->
+<section class="about py-5" id="About">
+    <div class="container py-4">
+        <div class="row">
+            <div class="dots position-relative col-lg-5 col-md-5 col-sm-12 d-flex justify-content-end d-sm-flex justify-content-center">
+                <img  src="imgs/hero.jpg"  alt="about image">
+            </div>
+            <div class="about-info col-lg-7 col-md-7 col-sm-12 mt-sm-5 mt-lg-0">
+                <h2 class="fw-bolder h4">About Me.</h2>
+                <p class="text-muted text-black-50 fs-6">UI / UX Designer & Web Developer</p>
+                <p class="about-text ">I am <span>Jerry Daniels</span> Lorem Ipsum is simply dummy text of
+                     the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+
+                    <!-- progress bar -->
+                    <div class="about-progress mb-4" style="height: 19px; background-color: #eeeeee;">
+                        <div class="about-bar text-white d-flex justify-content-between align-items-center" style="  width: 95% ; height: 100%; background-color: black;">
+                            <span class="ms-4">Web Design</span>
+                            <span class="me-4">95%</span>
+                        </div>
+                    </div>
+                    <div class="about-progress mb-4" style="height: 19px; background-color: #eeeeee;">
+                        <div class="about-bar text-white d-flex justify-content-between align-items-center" style="  width: 80% ; height: 100%; background-color: black;">
+                            <span class="ms-4">Branding</span>
+                            <span class="me-4">80%</span>
+                        </div>
+                    </div>
+                    <div class="about-progress mb-4" style="height: 19px; background-color: #eeeeee;">
+                        <div class="about-bar text-white d-flex justify-content-between align-items-center" style="  width: 90% ; height: 100%; background-color: black;">
+                            <span class="ms-4">Development</span>
+                            <span class="me-4">90%</span>
+                        </div>
+                    </div>
+
+                    <!-- btn about  -->
+                    <div class="about-btn">
+                        <a href="" class="btn btn-1 rounded-1 px-4 py-2" > Download C.V</a>
+                        <a href="" class="btn btn-2 rounded-1 px-4 py-2" > Contact Me</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- start services section -->
+<section class="Services py-5" id="Services">
+    <div class="container py-4">
+        <div class="main-title text-center  ">
+            <h2 class="fw-bold position-relative">Services.</h2>
+        </div>
+        <div class="row px-5 my-5 gap-3 d-flex justify-content-center align-items-center flex-wrap">
+            <div class="services-item col-md-4 col-sm-12 shadow bg-white text-center py-4">
+                    <div class=" mt-3 services-icon d-flex justify-content-center align-items-center m-auto mb-2">
+                        <i class="fa-solid fa-tv"></i>
+                    </div>
+                    <h6 class="fw-bold my-2">Web Design</h6>
+                    <p class="text-black-50  text-center ">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+
+            <div class="services-item col-md-4 col-sm-12 shadow bg-white text-center py-4">
+                    <div class=" mt-3 services-icon d-flex justify-content-center align-items-center m-auto mb-2">
+                       <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h6 class="fw-bold my-2">Branding</h6>
+                    <p class="text-black-50  text-center">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+
+            <div class="services-item col-md-4 col-sm-12 shadow bg-white text-center py-4">
+                    <div class=" mt-3 services-icon d-flex justify-content-center align-items-center m-auto mb-2">
+                        <i class="fa-solid fa-umbrella"></i> 
+                    </div>
+                    <h6 class="fw-bold my-2">Development</h6>
+                    <p class="text-black-50  text-center">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+
+            <div class="services-item col-md-4 col-sm-12 shadow bg-white text-center py-4">
+                    <div class=" mt-3 services-icon d-flex justify-content-center align-items-center m-auto mb-2">
+                        <i class="fa-regular fa-gem"></i>
+                    </div>
+                    <h6 class="fw-bold my-2">Creative Design</h6>
+                    <p class="text-black-50  text-center">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+
+            <div class="services-item col-md-4 col-sm-12 shadow bg-white text-center py-4">
+                    <div class=" mt-3 services-icon d-flex justify-content-center align-items-center m-auto mb-2">
+                        <i class="fa-solid fa-laptop"></i>
+                    </div>
+                    <h6 class="fw-bold my-2">Fully Responsive</h6>
+                    <p class="text-black-50  text-center">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+
+            <div class="services-item col-md-4 col-sm-12 shadow bg-white text-center py-4">
+                    <div class=" mt-3 services-icon d-flex justify-content-center align-items-center m-auto mb-2">
+                        <i class="fa-solid fa-camera"></i>
+                    </div>
+                    <h6 class="fw-bold my-2">Retina Ready</h6>
+                    <p class="text-black-50  text-center ">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</section>
+
+
+<!-- start work section -->
+<section class="Works py-5" id="Works" >
+
+    <div class="container py-4">
+        <div class="main-title text-center  ">
+            <h2 class="fw-bold position-relative">Portfolio.</h2>
+        </div>
+
+
+        <!-- nav and tap  -->
+
+
+        <ul class="nav nav-pills mb-3 my-5 m-auto fit-content" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-Brand" type="button" role="tab" aria-controls="pills-Brand" aria-selected="false">Brand</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-Design" type="button" role="tab" aria-controls="pills-Design" aria-selected="false">Design</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-Graphic-tab" data-bs-toggle="pill" data-bs-target="#pills-Graphic" type="button" role="tab" aria-controls="pills-Graphic" aria-selected="false">Graphic</button>
+            </li>
+
+
+
+
+            
+
+     
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+
+
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+                
+                <div class="row py-3 d-flex justify-content-center">
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                                <div class=" position-relative overflow-hidden inner">
+                                <img src="imgs/portfolio/1.jpg" alt="protfolio" class="w-100">
+                                <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                                    <h6>WEB DESIGN</h6>
+                                    <div class="icons-layer d-flex gap-1 ">
+                                        <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                            <i class="fa-solid fa-link-slash"></i>
+                                        </div>
+                                        <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                            <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/2.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/3.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/4.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/5.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/6.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="tab-pane fade" id="pills-Brand" role="tabpanel" aria-labelledby="pills-Brand-tab" tabindex="0">
+
+                <div class="row py-3 d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/1.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/2.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="tab-pane fade" id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab" tabindex="0">
+
+                <div class="row py-3 d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/2.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/6.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+                    
+                 </div>
+
+
+
+
+
+            
+
+            </div>
+
+
+            <div class="tab-pane fade" id="pills-Graphic" role="tabpanel" aria-labelledby="pills-Graphic-tab" tabindex="0">
+
+            <div class="row py-3 d-flex justify-content-center">
+            <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/4.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/5.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 p-3" style="width: 20rem ;">
+                        <div class=" position-relative overflow-hidden inner">
+                        <img src="imgs/portfolio/6.jpg" alt="protfolio" class="w-100">
+                        <div class="layer z-3 position-absolute start-0  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h6>WEB DESIGN</h6>
+                            <div class="icons-layer d-flex gap-1 ">
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-link-slash"></i>
+                                </div>
+                                <div class="layer-item-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i>                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+            </div>
+                </div>
+
+            </div>
+            </div>
+     </div>
+
+
+
+</section>
+
+
+<!-- start curosal section -->
+<section class="curosal py-5 ">
+    <div class="container py-4">
+
+        <div class="main-title text-center  ">
+            <h2 class="fw-bold position-relative">Testimonials.</h2>
+        </div>
+
+
+        <div id="carouselExampleIndicators" class="carousel slide ">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center  py-4">
+                <img src="imgs/1_New1.jpg" alt="" class="clien-img rounded-circle">
+                <p class="text-black-50 m-auto py-4"> Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.</p>
+
+                    <h6 class="fw-semibold">Alex Smith</h6>
+                    <span class=" fw-semibold">Envato Customer</span>
+              </div>
+              <div class="carousel-item active text-center  py-4">
+                <img src="imgs/testi-1.jpg" alt="" class="clien-img rounded-circle">
+                <p class="text-black-50 m-auto py-4"> Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.</p>
+
+                    <h6 class="fw-semibold">Alex Smith</h6>
+                    <span class=" fw-semibold">Envato Customer</span>
+              </div>
+              <div class="carousel-item active text-center  py-4">
+                <img src="imgs/testi-3.jpg" alt="" class="clien-img rounded-circle">
+                <p class="text-black-50 m-auto py-4"> Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.</p>
+
+                    <h6 class="fw-semibold">Alex Smith</h6>
+                    <span class=" fw-semibold">Envato Customer</span>
+              </div>
+              
+            </div>
+            <div class="carousel-indicators position-relative">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+          </div>
+
+
+    </div>
+</section>
+
+
+<!-- start client section -->
+ <section class="Clients py-5" id="Clients">
+
+    <div class="container py-4">
+
+
+       <div class="row py-5">
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="client-item  d-flex flex-column justify-content-center align-items-center gap-2" >
+                <i class="fa-solid fa-users"></i>
+                <span>850</span>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="client-item  d-flex flex-column justify-content-center align-items-center gap-2" >
+                <i class="fa-solid fa-thumbs-up"></i>
+                 <span>230</span>
+                <p>Complete Projects </p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="client-item  d-flex flex-column justify-content-center align-items-center gap-2" >
+                <i class="fa-solid fa-bullhorn"></i>
+                <span>9450</span>
+                <p>Lines Of Code </p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="client-item  d-flex flex-column justify-content-center align-items-center gap-2" >
+                <i class="fa-solid fa-download"></i>
+                <span>780</span>
+                <p>Files Downloaded </p>
+            </div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+    </div>
+</section>
+
+
+<!-- start team -->
+<section class="team py-5" id="Team">
+    <div class="container py-4">
+        <div class="main-title text-center  ">
+            <h2 class="fw-bold position-relative">Our Team.</h2>
+        </div>
+
+        <div class="row py-4 d-flex justify-content-center align-items-center">
+
+            <div class="col-lg-3 col-md-6 col-sm-12" style="width: 20rem;">
+                <div class="team-item">
+
+
+                    <div class="team-img overflow-hidden position-relative">
+                        <img src="imgs/2.jpg" alt="" class="w-100 " >
+                        <div class="layer-team  position-absolute d-flex justify-content-center align-items-center gap-3 ">
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="team-info text-center text-white">
+                        <h4 class="fw-semibold fs-5 pt-2">John Doe</h4>
+                        <h5 class="fw-semibold pb-2">Front-End Developer</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" style="width: 20rem;">
+                <div class="team-item">
+
+
+                    <div class="team-img overflow-hidden position-relative">
+                        <img src="imgs/1.jpg" alt="" class="w-100 " >
+                        <div class="layer-team  position-absolute d-flex justify-content-center align-items-center gap-3 ">
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="team-info text-center text-white">
+                        <h4 class="fw-semibold fs-5 pt-2">John Doe</h4>
+                        <h5 class="fw-semibold pb-2">Front-End Developer</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" style="width: 20rem;">
+                <div class="team-item">
+
+
+                    <div class="team-img overflow-hidden position-relative">
+                        <img src="imgs/2.jpg" alt="" class="w-100 " >
+                        <div class="layer-team  position-absolute d-flex justify-content-center align-items-center gap-3 ">
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="team-icon rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="team-info text-center text-white">
+                        <h4 class="fw-semibold fs-5 pt-2">John Doe</h4>
+                        <h5 class="fw-semibold pb-2">Front-End Developer</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+     </section>
+
+
+
+<!-- start contact section -->
+ <section class="Contact py-5 " id="Contact">
+        <div class="container  py-4">
+            <div class="main-title text-center  ">
+                <h2 class="fw-bold position-relative">Contact Us.</h2>
+
+                <div class="row py-5  d-flex justify-content-center align-items-center">
+                    <div class="col-lg-4  col-md-4 col-sm-12  " style="width: 17rem;">
+                        <div class="contact-item d-flex flex-column justify-content-center align-items-center p-3">
+                            <div class="contact-icons rounded-circle d-flex justify-content-center align-items-center ">
+                                <i class="fa-solid fa-location-arrow"></i>
+                            </div>
+                            <span  class="my-1">Address</span>
+                            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-sm-12  " style="width: 17rem;">
+                        <div class="contact-item d-flex flex-column justify-content-center align-items-center p-3">
+                            <div class="contact-icons rounded-circle d-flex justify-content-center align-items-center ">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <span  class="my-1">Email</span>
+                            <p>Support@website.com</p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-sm-12  " style="width: 17rem;">
+                        <div class="contact-item d-flex flex-column justify-content-center align-items-center p-3">
+                            <div class="contact-icons rounded-circle d-flex justify-content-center align-items-center ">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <span  class="my-1">Phone</span>
+                            <p>+20 1205174764</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row d-flex justify-content-center align-items-center flex-wrap">
+                    <div class="col-lg-6 col-md-12 col-sm-12 contact-field" >
+                        <div class="">
+                            <input type="text" class="form-control contact-input" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12  contact-field" >
+                        <div class="">
+                            <input type="text"  class="form-control contact-input " placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <textarea  rows="4" class=" input-area my-4 m-auto form-control"></textarea>
+                    </div>
+                    <div class="col-lg-12">
+                        <button type="submit" class="  content-sub fit-content rounded-1">Submit</button> 
+                    </div>
+                </div>
+                <!-- <div class="row bg-info " >
+                </div> -->
+
+            </div>
+
+        </div>
+ </section>
+
+<!-- start footer -->
+<footer class="bg-black py-3  d-flex justify-content-center align-items-center ">
+        <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Larry Daniels', 'Developer','Designer'],
+          typeSpeed: 50,
+          loop:true,
+          loopCount:Infinity,
+          backSpeed:50,
+        });
+      </script>
+</body>
+</html>
